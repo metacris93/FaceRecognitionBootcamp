@@ -28,7 +28,7 @@ class App:
     def snapshot(self):
         ret, frame = self.vid.get_frame()
         if ret:
-            cv2.imwrite("{}.png".format(str(total).zfill(5)), cv2.cvtColor(frame, cv2.COLOR_RGB2BGR))
+            cv2.imwrite("{}.png".format(str(self.total).zfill(5)), cv2.cvtColor(frame, cv2.COLOR_RGB2BGR))
             self.total += 1
 
     def update(self):
