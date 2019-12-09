@@ -130,3 +130,8 @@ dmypy.json
 test.py
 tkint.py
 build_face_dataset.py
+dataset/*
+face_recogniser.py
+face_functions.py
+backup-UI.py
+add_to_database.py
