@@ -1,0 +1,2 @@
+https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py
+https://github.com/madhavambati/Face-Recognition
